@@ -1,4 +1,6 @@
-<?php require('header.php') ?>
+<?php require('header.php') 
+
+?>
     <main>
         <h1> Members Only </h1> 
         <h2> You are logged in and not a robot! Congrats! </h2> 
