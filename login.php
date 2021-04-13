@@ -1,5 +1,6 @@
 <?php 
 require('header.php');
+
 ?>
 <main>
     <h1> Log In! </h1> 
