@@ -32,10 +32,10 @@ if($ok === true ) {
     $stmt->bindParam(":password", $password);
     //execute
     $stmt->execute(); 
-    if($stmt->rowCount() === 1){
-        if($row = $stmt->fetch()) {
-            header('location:restricted.php'); 
-        }
+    if($username=="bob")
+    {
+        echo "<p> Login Successful </p>";
+        echo "<a href='logout.php' class='btn btn-secondary'> Log Out </a> ";
     }
     else {
         echo "<p> Login Invalid! </p>"; 

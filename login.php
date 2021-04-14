@@ -1,6 +1,11 @@
 <?php 
 require('header.php');
 
+session_start();
+  $form_values = $_SESSION['form_values'] ?? null;
+
+  unset($_SESSION['form_values']);
+
 ?>
 <main>
     <h1> Log In! </h1> 
